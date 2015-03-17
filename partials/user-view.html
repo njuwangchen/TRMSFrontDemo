@@ -1,0 +1,25 @@
+<table class="table">
+  <tr>
+    <td><h3>Information for User {{user.id}}</h3></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>User Name</td>
+    <td>{{user.name}}</td>
+  </tr>
+  <tr>
+    <td>Password</td>
+    <td>{{user.password}}</td>
+  </tr>
+  <tr>
+    <td>Privilege</td>
+    <td>{{user.privilege}}</td>
+  </tr>
+  <tr>
+    <td>Description</td>
+    <td>{{user.descrition}}</td>
+  </tr>
+</table>
+<div>
+  <a class="btn btn-primary" ui-sref="editUser({id:user.id})">Edit</a>
+</div>
